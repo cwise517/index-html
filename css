@@ -28,3 +28,86 @@ nav a:hover {
   color: #84a98c;
 }
 
+.hero {
+  background-color: #a8dadc; /* soft blue */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  color: #2d6a4f;
+}
+
+.hero p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #2f3e46;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.about {
+  padding: 40px 20px;
+  background-color: #f4f4f9;
+  text-align: center;
+}
+
+.about h3 {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  color: #2d6a4f;
+}
+
+.about p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #2f3e46;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.cta {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #84a98c; /* calming green */
+}
+
+.cta p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  header h1:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.cta-btn {
+  transition: background-color 0.3s ease, transform 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #1a4d32;
+  transform: scale(1.05);
+}
+
+  color: white;
+}
+
+.cta-btn {
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #2d6a4f;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #1a4d32;
+}
+
+
+
